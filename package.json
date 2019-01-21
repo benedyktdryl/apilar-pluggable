@@ -1,8 +1,10 @@
 {
   "name": "@apilar/pluggable",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "0.0.0-development",
+  "description": "Minimalistic library for creating own pluggable system",
+  "keywords": [
+    "plugins"
+  ],
   "main": "dist/apilar-pluggable.umd.js",
   "module": "dist/apilar-pluggable.es5.js",
   "typings": "dist/types/apilar-pluggable.d.ts",
@@ -12,7 +14,7 @@
   "author": " <>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/benedyktdryl/apilar-pluggable.git"
   },
   "license": "MIT",
   "engines": {
@@ -106,7 +108,7 @@
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-typescript2": "^0.18.0",
-    "semantic-release": "^15.9.16",
+    "semantic-release": "^15.13.3",
     "travis-deploy-once": "^5.0.9",
     "ts-jest": "^23.10.2",
     "ts-node": "^7.0.1",
